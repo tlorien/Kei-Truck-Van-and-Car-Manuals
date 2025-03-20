@@ -4,8 +4,7 @@ email: keicarmanuals@mail.com
 description: >-
   Kei Car Manuals is a community-driven project providing accessible,
   comprehensive manuals for all Kei vehicle models.
-baseurl: "/Kei-Truck-Van-and-Car-Manuals"
-url: "https://tlorien.github.io"
+url: "https://tlorien.github.io/Kei-Truck-Van-and-Car-Manuals"
 github_username:  tlorien
 
 # Build Settings
