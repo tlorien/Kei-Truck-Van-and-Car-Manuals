@@ -3,23 +3,49 @@ permalink: /404.html
 layout: default
 ---
 
-<style type="text/css" media="screen">
+<style>
   .container {
-    margin: 10px auto;
+    margin: 40px auto;
     max-width: 600px;
     text-align: center;
+    font-family: "Arial", sans-serif;
   }
   h1 {
-    margin: 30px 0;
+    font-size: 6em;
+    margin: 20px 0;
+    color: #ff4500; /* Fun Kei truck orange */
+    text-shadow: 2px 2px 0px black;
+  }
+  p {
+    font-size: 1.2em;
+    color: #555;
+  }
+  .truck-emoji {
     font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
+  }
+  a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: white;
+    background: #007BFF;
+    border-radius: 8px;
+    transition: 0.3s ease-in-out;
+  }
+  a:hover {
+    background: #0056b3;
   }
 </style>
 
 <div class="container">
   <h1>404</h1>
+  <div class="truck-emoji">🚚💨</div>
 
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
+  <p><strong>Oh no! Your kei truck took a wrong turn. =(</strong></p>
+  <p>The page you're looking for is stuck in low gear (or might not exist).</p>
+  <p>Maybe try heading back to safer roads?</p>
+
+  <a href="{{ "/" | relative_url }}">🏠 Return to the Garage</a>
 </div>

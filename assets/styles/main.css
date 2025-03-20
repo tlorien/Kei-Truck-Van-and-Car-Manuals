@@ -15,11 +15,15 @@ body {
 .container {
   width: 100%;
   max-width: 960px; 
-  margin: 0 auto; 
   padding: 20px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
   background: white; 
   border-radius: 8px; 
+  text-align: center; /* Ensures all text is centered */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 header {
