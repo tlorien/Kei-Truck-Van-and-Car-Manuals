@@ -1,6 +1,7 @@
 ---
 layout: default
 title: All Manuals
+permalink: "/manuals/"
 ---
 
 # Car Brands
