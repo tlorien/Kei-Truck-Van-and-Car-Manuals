@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Subaru Sambar 2009 Manuals"
-permalink: "/manuals/Subaru/Sambar/2009"
+permalink: "/manuals/Subaru/Sambar/2009/"
 brand: "Subaru"
 model: "Sambar"
 year: "2009"
