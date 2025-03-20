@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Subaru Sambar 2009 GBD-TT2 Manual"
+permalink: "/manuals/Subaru/Sambar/2009/GBD-TT2"
 brand: "Subaru"
 model: "Sambar"
 year: "2009"

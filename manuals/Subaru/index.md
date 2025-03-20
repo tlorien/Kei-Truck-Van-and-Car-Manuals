@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Subaru Manuals"
+permalink: "/manuals/Subaru/"
 brand: "Subaru"
 ---
 
