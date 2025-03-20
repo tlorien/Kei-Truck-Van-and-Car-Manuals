@@ -22,6 +22,6 @@ brand: "Subaru"
   {% endfor %}
 
   {% for model in models %}
-    <li><a href="/manuals/{{ page.brand }}/{{ model }}/">{{ model }}</a></li>
+    <li><a href="{{ "/manuals/" | append: page.brand | append: "/" | append: model | append: "/" | relative_url }}">{{ model }}</a></li>
   {% endfor %}
 </ul>

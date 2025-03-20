@@ -23,6 +23,6 @@ model: "Sambar"
   {% endfor %}
 
   {% for year in years %}
-    <li><a href="/manuals/{{ page.brand }}/{{ page.model }}/{{ year }}/">{{ year }}</a></li>
+    <li><a href="{{ "/manuals/" | append: page.brand | append: "/" | append: page.model | append: "/" | append: year | append: "/" | relative_url }}">{{ year }}</a></li>
   {% endfor %}
 </ul>

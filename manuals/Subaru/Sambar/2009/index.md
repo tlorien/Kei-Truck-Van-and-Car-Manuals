@@ -24,6 +24,6 @@ year: "2009"
   {% endfor %}
 
   {% for chassis_code in chassis_codes %}
-    <li><a href="/manuals/{{ page.brand }}/{{ page.model }}/{{ page.year }}/{{ chassis_code }}/">{{ chassis_code }}</a></li>
+    <li><a href="{{ "/manuals/" | append: page.brand | append: "/" | append: page.model | append: "/" | append: page.year | append: "/" | append: chassis_code | append: "/" | relative_url }}">{{ chassis_code }}</a></li>
   {% endfor %}
 </ul>

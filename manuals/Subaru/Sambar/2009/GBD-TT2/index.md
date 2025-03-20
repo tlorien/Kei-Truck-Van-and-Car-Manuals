@@ -25,7 +25,7 @@ chassis: "GBD-TT2"
   {% endfor %}
 
   {% for section in sections %}
-    <li><a href="/manuals/{{ page.brand }}/{{ page.model }}/{{ page.year }}/{{ page.chassis }}/{{ section }}/">
+    <li><a href="{{ "/manuals/" | append: page.brand | append: "/" | append: page.model | append: "/" | append: page.year | append: "/" | append: page.chassis | append: "/" | append: section | append: "/" | relative_url }}">
       {{ section | replace: "-", " " | capitalize }}
     </a></li>
   {% endfor %}
