@@ -8,4 +8,4 @@ Disallow: /assets/
 Allow: /
 
 # Sitemap for better indexing
-Sitemap: https://yourdomain.com/sitemap.xml
+Sitemap: https://tlorien.github.io/Kei-Truck-Van-and-Car-Manuals/sitemap.xml
