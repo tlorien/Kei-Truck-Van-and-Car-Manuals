@@ -6,8 +6,7 @@ description: >-
   comprehensive manuals for all Kei vehicle models.
 # baseurl: "/Kei-Truck-Van-and-Car-Manuals"
 # url: "https://tlorien.github.io"
-twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  tlorien
 
 # Build Settings
 markdown: kramdown

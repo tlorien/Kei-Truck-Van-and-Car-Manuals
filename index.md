@@ -6,7 +6,7 @@ permalink: /
 
 # Welcome to {{ site.title }}
 
-Discover and contribute to the most comprehensive and accessible repository of manuals for Kei vehicles! Browse by maker, model, and year to find the specific manual you need.
+Discover and contribute to the most comprehensive and accessible repository of translated manuals for Kei vehicles! Browse by maker, model, and year to find the specific manual you need.
 
 ## Get Started
 
