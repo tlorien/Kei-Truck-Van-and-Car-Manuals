@@ -1,0 +1,11 @@
+User-agent: *
+
+Disallow: /_layouts/
+Disallow: /_includes/
+Disallow: /_site/
+Disallow: /assets/
+
+Allow: /
+
+# Sitemap for better indexing
+Sitemap: https://yourdomain.com/sitemap.xml

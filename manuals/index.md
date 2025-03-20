@@ -1,19 +1,17 @@
 ---
 layout: default
 title: All Manuals
-permalink: "/manuals/"
 ---
 
 # Car Brands
 <ul>
-  {% assign brands = "" | split: "," %}
+  {% assign brands = "" | split: "," %}  {# Initialize an empty array #}
 
   {% for page in site.pages %}
-    {% if page.path contains "manuals/" and page.path != "manuals/index.md" %}
-      {% assign parts = page.path | split: "/" %}
-      {% assign brand_name = parts[1] %}
+    {% if page.path contains "manuals/" %}
+      {% assign brand_name = page.path | split: "/" | slice: 1, 1 | first %}
 
-      {% unless brands contains brand_name or brand_name == "index.md" %}
+      {% unless brands contains brand_name %}
         {% assign brands = brands | push: brand_name %}
       {% endunless %}
     {% endif %}
