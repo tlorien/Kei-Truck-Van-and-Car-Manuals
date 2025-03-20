@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: manual
 title: "Subaru Sambar 2009 GBD-TT2 Manual"
 permalink: "/manuals/Subaru/Sambar/2009/GBD-TT2/"
 brand: "Subaru"
