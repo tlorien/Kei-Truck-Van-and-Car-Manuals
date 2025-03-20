@@ -20,6 +20,6 @@ permalink: "/manuals/"
   {% endfor %}
 
   {% for brand in brands %}
-    <li><a href="/manuals/{{ brand }}/">{{ brand | capitalize }}</a></li>
+    <li><a href="{{ "/manuals/" | append: brand | append: "/" | relative_url }}">{{ brand | capitalize }}</a></li>
   {% endfor %}
 </ul>
