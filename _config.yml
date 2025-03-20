@@ -1,0 +1,53 @@
+# Site settings
+title: Kei Truck, Van, and Car Manuals
+email: keicarmanuals@mail.com
+description: >-
+  Kei Car Manuals is a community-driven project providing accessible,
+  comprehensive manuals for all Kei vehicle models.
+# baseurl: "/Kei-Truck-Van-and-Car-Manuals"
+# url: "https://tlorien.github.io"
+twitter_username: jekyllrb
+github_username:  jekyll
+
+# Build Settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# SEO tags
+author: Kei Car Manuals Team
+github_username: tlorien
+
+# Plugins configurations
+jekyll-feed:
+  path: "feed.xml"
+
+collections:
+  manuals:
+    output: true
+    permalink: /manuals/:path/
+
+# Data settings
+data_dir: _data
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
