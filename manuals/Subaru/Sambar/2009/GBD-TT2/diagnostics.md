@@ -27,9 +27,20 @@ If the malfunction does not occur again within three consecutive drive cycles, t
 
 #### B: Preparation Tools
 
-|          Illustration          |Tool Number|             Name            |                    Use                   |
-|--------------------------------|-----------|-----------------------------|------------------------------------------|
-|![img](/assets/images/6-6-1.PNG)|  1B02XJ0  |Subaru Select Monitor III Kit|Used to diagnose electrical system faults.|
+<table>
+  <tr>
+    <th>Illustration</th>
+    <th>Tool Number</th>
+    <th>Name</th>
+    <th>Use</th>
+  </tr>
+  <tr>
+    <td><img src="/assets/images/6-6-1.PNG" alt="img"></td>
+    <td>1B02XJ0</td>
+    <td>Subaru Select Monitor III Kit</td>
+    <td>Used to diagnose electrical system faults.</td>
+  </tr>
+</table>
 
 ### 2. Engine Control Unit (ECU) I/O Signals
 #### A. Specifications (Electrical Equipment)
