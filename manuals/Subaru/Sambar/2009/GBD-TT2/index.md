@@ -8,7 +8,40 @@ year: "2009"
 chassis: "GBD-TT2"
 ---
 
-# Sections for {{ page.brand | capitalize }} {{ page.model }} ({{ page.year }}) [{{ page.chassis }}]
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Subaru Sambar Manual</title>
+    <link rel="stylesheet" href="{{ './assets/styles/sambar.css' }}">
+</head>
+<body>
+    <div class="manual-header">
+        <div class="subaru-logo-text">
+            <img src="{{ site.baseurl }}/assets/images/brand-logos/subaru.svg" alt="Subaru Logo" class="subaru-logo">
+            <span class="subaru-text">SUBARU</span>
+        </div>
+
+        <div class="chassis-codes">
+            <strong>GBD-TT1 EBD-TT1</strong><br>
+            <strong>GBD-TT2 EBD-TT2</strong><br>
+            <strong>GBD-TV1 EBD-TV1</strong><br>
+            <strong>GBD-TV2 EBD-TV2</strong>
+        </div>
+
+        <div class="sambar-block">
+            <span class="sambar-name">SAMBAR</span>
+        </div>
+
+        <div class="sub-title">
+            <span>New car manual</span><br>
+            <span>Maintenance manual</span>
+        </div>
+    </div>
+    <br>
+</body>
+</html>
+
+# {{ page.title }}
 <ul>
   {% assign sections = "" | split: "," %}
 

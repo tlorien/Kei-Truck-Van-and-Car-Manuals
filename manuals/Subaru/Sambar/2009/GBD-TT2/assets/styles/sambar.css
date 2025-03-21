@@ -1,0 +1,43 @@
+/* Title styling */
+.manual-header {
+    margin-left: auto;
+}
+  
+  .subaru-logo {
+    width: 50px;
+    margin-left: auto;
+  }
+  .subaru-logo-text {
+    width: 50px;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+  }
+  
+  .sambar-name {
+    font-size: 6em;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    width: 300px;
+    text-align: center;
+    margin-left: auto;
+}
+
+.chassis-codes {
+    text-align: right;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: auto;
+}
+
+/* Subtitle section (grey background) */
+.sub-title {
+    text-align: center;
+    background-color: #cccccc; /* Grey background */
+    padding: 10px;
+    font-size: 20px;
+}
+  
