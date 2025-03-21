@@ -1,6 +1,6 @@
 # Kei Docs
 
-Welcome to the **Kei Docs** project, a community-driven effort to collect, host, and translate vehicle manuals for all Kei vehicles. [Hosted on GitHub Pages(https://tlorien.github.io/Kei-Truck-Van-and-Car-Manuals/), this repository aims to become a comprehensive and open source of information for owners and enthusiasts of Kei vehicles.
+Welcome to the **Kei Docs** project, a community-driven effort to collect, host, and translate vehicle manuals for all Kei vehicles. Hosted on GitHub Pages, this repository aims to become a comprehensive and open source of information for owners and enthusiasts of Kei vehicles.
 
 Visit the website here: https://tlorien.github.io/Kei-Truck-Van-and-Car-Manuals/
 
