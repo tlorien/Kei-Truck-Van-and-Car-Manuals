@@ -73,7 +73,6 @@ Each manuals has its own /assets/ folder for manual-specific assets. Generic sha
 │   │   │   │   ├── transmission.md
 │   │   │   │   ├── electrical.md
 │   │   │   │   ├── chassis.md
-│── index.md                        # Lists all brands
 ```
 
 Each section file must include this **YAML front matter** at the top with the relevant metadata:
