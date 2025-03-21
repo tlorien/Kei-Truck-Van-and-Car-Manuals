@@ -13,7 +13,7 @@ chassis: "GBD-TT2"
 #### Components
 1. Front bumper grill
 
-![img](..\assets\images\5-1-1.PNG)
+![img](../assets/images/5-1-1.PNG)
 
 (1) Front pump face
 
@@ -35,15 +35,15 @@ chassis: "GBD-TT2"
 
 3) Open the left and right doors and remove the clips.
 
-![img](..\assets\images\5-1-2.PNG)
+![img](../assets/images/5-1-2.PNG)
 
 4) Remove the clip on the lower center of the bumper.
 
-![img](..\assets\images\5-1-3.PNG)
+![img](../assets/images/5-1-3.PNG)
 
 5) Remove the bolts on the front of the bumper.
 
-![img](..\assets\images\5-1-4.PNG)
+![img](../assets/images/5-1-4.PNG)
 
 6) Pull the bumper forward and remove it from the vehicle.
 
@@ -52,7 +52,7 @@ Reference: Remove the bumper by pulling firmly on the front part (a).
 **Notice:**
 (a) When inserting your fingers into parts to remove them, be sure to wear work gloves.
 
-![img](..\assets\images\5-1-5.PNG)
+![img](../assets/images/5-1-5.PNG)
 
 #### **B: Installation**
 
