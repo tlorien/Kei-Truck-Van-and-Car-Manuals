@@ -1,12 +1,18 @@
 <footer>
-  <div class="footer-container">
+    <div class="footer-container">
       <div class="footer-top">
-          <p>&copy; <span id="year"></span> {{ site.title }}. Not affiliated with any manufacturer. All rights reserved.</p>
+        <p>&copy; <span id="year"></span> {{ site.title }}. Not affiliated with any manufacturer. All rights reserved.</p>
       </div>
       <div class="footer-bottom">
-          <a href="{{ '/sitemap/' | relative_url }}">Sitemap</a>
-          <a href="{{ '/disclaimer/' | relative_url }}">Disclaimer</a>
-
+        <a href="{{ '/sitemap/' | relative_url }}">Sitemap</a>
+        <a href="{{ '/disclaimer/' | relative_url }}">Disclaimer</a>
       </div>
-  </div>
-</footer>
+    </div>
+  
+    <script>
+      const startYear = 2025;
+      const currentYear = new Date().getFullYear();
+      const yearDisplay = (currentYear > startYear) ? `${startYear}–${currentYear}` : `${startYear}`;
+      document.getElementById("year").textContent = yearDisplay;
+    </script>
+  </footer>
