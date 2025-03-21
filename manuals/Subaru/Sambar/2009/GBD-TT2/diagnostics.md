@@ -55,6 +55,14 @@ If the malfunction does not occur again within three consecutive drive cycles, t
     <th colspan="2">Signal (V)</th>
     <th>Reference</th>
   </tr>
+    <tr>
+    <th></th>
+    <th></th>
+    <th></th>
+    <th>Ignition switch ON (engine OFF)</th>
+    <th>Engine ON (idling)</th>
+    <th></th>
+  </tr>
   <tr>
     <td>Main power supply 1</td>
     <td>R134</td>
