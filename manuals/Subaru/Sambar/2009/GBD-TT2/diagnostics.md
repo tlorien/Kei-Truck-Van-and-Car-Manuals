@@ -627,3 +627,231 @@ If the malfunction does not occur again within three consecutive drive cycles, t
 ![img](/assets/images/6-1-4.PNG)
 
 ![img](/assets/images/6-1-5.PNG)
+
+### 3. Inspection mode
+
+A: Carry out the diagnosis shown in the following diagnostic code (DTC) table.
+
+When performing a diagnosis that is not shown in the diagnostic code (DTC) table, refer to the drive cycle section.
+
+([See 6-12 "Drive Cycle".]()) //* TO DO//
+
+<table>
+  <tr>
+    <th>DTC</th>
+    <th>Category</th>
+    <th>Category</th>
+  </tr>
+    <tr>
+    <td>P0031</td>
+    <td>O2 Sensor Heater Circuit (LOW) (Bank 1 Sensor 1)</td>
+    <td></td>
+  </tr>
+    <tr>
+    <td>P0032</td>
+    <td>O2 Sensor Heater Circuit (HIGH) (Bank 1 Sensor 1)</td>
+    <td></td>
+  </tr>
+    <tr>
+    <td>P0037</td>
+    <td>O2 Sensor Heater Circuit (LOW) (Bank 1 Sensor 2)</td>
+    <td></td>
+  </tr>
+    <tr>
+    <td>P0038</td>
+    <td>O2 Sensor Heater Circuit (HIGH) (Bank 1 Sensor 2)</td>
+    <td></td>
+  </tr>
+    <tr>
+    <td>P0107</td>
+    <td>Intake pressure sensor circuit (LOW)</td>
+    <td></td>
+  </tr>
+    <tr>
+    <td>P0108</td>
+    <td>Intake pressure sensor circuit (HIGH)</td>
+    <td></td>
+  </tr>
+    <tr>
+    <td>P0112</td>
+    <td>Intake air temperature sensor circuit (LOW)</td>
+    <td></td>
+  </tr>
+    <tr>
+    <td>P0113</td>
+    <td>Intake air temperature sensor circuit (HIGH)</td>
+    <td></td>
+  </tr>
+    <tr>
+    <td>P0117</td>
+    <td>Water temperature sensor circuit (LOW)</td>
+    <td></td>
+  </tr>
+    <tr>
+    <td>P0118</td>
+    <td>Water temperature sensor circuit (HIGH)</td>
+    <td></td>
+  </tr>
+    <tr>
+    <td>P0122</td>
+    <td>Throttle position sensor A circuit (LOW)</td>
+    <td></td>
+  </tr>
+    <tr>
+    <td>P0122</td>
+    <td>Throttle position sensor A circuit (HIGH)</td>
+    <td></td>
+  </tr>
+    <tr>
+    <td>P0130</td>
+    <td>O2 sensor circuit (Bank 1 Sensor 1)</td>
+    <td></td>
+  </tr>
+    <tr>
+    <td>P0136</td>
+    <td>O2 sensor circuit (Bank 1 Sensor 2)</td>
+    <td></td>
+  </tr>
+    <tr>
+    <td>P0327</td>
+    <td>Knock sensor 1 circuit (LOW)</td>
+    <td></td>
+  </tr>
+    <tr>
+    <td>P0328</td>
+    <td>Knock sensor 1 circuit (HIGH)</td>
+    <td></td>
+  </tr>
+    <tr>
+    <td>P0335</td>
+    <td>Crank angle sensor A system circuit</td>
+    <td></td>
+  </tr>
+    <tr>
+    <td>P0340</td>
+    <td>Cam angle sensor A system circuit 1</td>
+    <td></td>
+  </tr>
+    <tr>
+    <td>P0350</td>
+    <td>Ignition coil system circuit</td>
+    <td></td>
+  </tr>
+    <tr>
+    <td>P0444</td>
+    <td>Canister purge solenoid circuit (LOW)</td>
+    <td></td>
+  </tr>
+    <tr>
+    <td>P0445</td>
+    <td>Canister purge solenoid circuit (HIGH)</td>
+    <td></td>
+  </tr>
+    <tr>
+    <td>P0500</td>
+    <td>Vehicle speed sensor system</td>
+    <td></td>
+  </tr>
+    <tr>
+    <td>P0562</td>
+    <td>Charging circuit (LOW)</td>
+    <td></td>
+  </tr>
+    <tr>
+    <td>P0562</td>
+    <td>Charging circuit (HIGH)</td>
+    <td></td>
+  </tr>
+    <tr>
+    <td>P0705</td>
+    <td>AT Range SW circuit</td>
+    <td></td>
+  </tr>
+    <tr>
+    <td>P0720</td>
+    <td>AT vehicle speed sensor circuit</td>
+    <td></td>
+  </tr>
+    <tr>
+    <td>P0753</td>
+    <td>AT shift solenoid 1 circuit (shift solenoid A)</td>
+    <td></td>
+  </tr>
+    <tr>
+    <td>P0758</td>
+    <td>AT shift solenoid 2 circuit (shift solenoid B)</td>
+    <td></td>
+  </tr>
+    <tr>
+    <td>P0790</td>
+    <td>Mode SW circuit</td>
+    <td></td>
+  </tr>
+    <tr>
+    <td>P1510</td>
+    <td>ISC signal line 1 circuit (LOW)</td>
+    <td></td>
+  </tr>
+    <tr>
+    <td>P1511</td>
+    <td>ISC signal line 1 circuit (HIGH)</td>
+    <td></td>
+  </tr>
+    <tr>
+    <td>P1512</td>
+    <td>ISC signal line 2 circuit (LOW)</td>
+    <td></td>
+  </tr>
+    <tr>
+    <td>P1513</td>
+    <td>ISC signal line 2 circuit (HIGH)</td>
+    <td></td>
+  </tr>
+    <tr>
+    <td>P1514</td>
+    <td>ISC signal line 3 circuit (LOW)</td>
+    <td></td>
+  </tr>
+    <tr>
+    <td>P1515</td>
+    <td>ISC signal line 3 circuit (HIGH)</td>
+    <td></td>
+  </tr>
+    <tr>
+    <td>P1516</td>
+    <td>ISC signal line 4 circuit (LOW)</td>
+    <td></td>
+  </tr>
+    <tr>
+    <td>P1517</td>
+    <td>ISC signal line 4 circuit (HIGH)</td>
+    <td></td>
+  </tr>
+    <tr>
+    <td>P1521</td>
+    <td>Brake signal circuit</td>
+    <td></td>
+  </tr>
+    <tr>
+    <td>P1522</td>
+    <td>Electrical load signal system circuit</td>
+    <td></td>
+  </tr>
+    <tr>
+    <td>P1525</td>
+    <td>Blower fan circuit</td>
+    <td></td>
+  </tr>
+    <tr>
+    <td>P1559</td>
+    <td>Intake system</td>
+    <td></td>
+  </tr>
+    <tr>
+    <td>P1560</td>
+    <td>Backup power supply</td>
+    <td></td>
+  </tr>
+</table>
+
+    <td colspan="2"></td>
