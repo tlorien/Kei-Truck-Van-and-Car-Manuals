@@ -144,10 +144,10 @@ The design of the driver's airbag module has been changed (for all vehicles).
 ![img](../assets/images/4-8-1.PNG)
 
 - AT meter without tachometer
-![img](../assets/images/4-8-2.PNG)
+![img](/assets/images/4-8-2.PNG)
 
 - AT meter with tachometer
-![img]({{ '/assets/images/4-8-3.PNG' | relative_url }})
+![img](/assets/images/4-8-3.PNG)
 
 - MT meter with tachometer
 ![img](../assets/images/4-8-4.PNG)
