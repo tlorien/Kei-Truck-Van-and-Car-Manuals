@@ -58,8 +58,7 @@ chassis: "GBD-TT2"
   {% endfor %}
 
   {% for section in sections %}
-    <li><a href="{{ "/manuals/" | append: page.brand | append: "/" | append: page.model | append: "/" | append: page.year | append: "/" | append: page.chassis | append: "/" | append: section | append: "/" | relative_url }}">
+    <li><a href="{{ "/manuals/" | append: page.brand | append: "/" | append: page.model | append: "/" | append: page.year | append: "/" | append: page.chassis | append: "/" | append: section |absolute_url }}">
       {{ section | replace: "-", " " | capitalize }}
     </a></li>
   {% endfor %}
-</ul>
