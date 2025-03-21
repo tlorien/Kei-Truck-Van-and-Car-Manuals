@@ -141,13 +141,17 @@ The design of the driver's airbag module has been changed (for all vehicles).
 - The font of numbers and alphabets has been changed.
 - The design of the scale and red zone has been changed.
 - MT meter without tachometer
+
 ![img](/assets/images/4-8-1.PNG)
 
 - AT meter without tachometer
+
 ![img](/assets/images/4-8-2.PNG)
 
 - AT meter with tachometer
+
 ![img](/assets/images/4-8-3.PNG)
 
 - MT meter with tachometer
+
 ![img](/assets/images/4-8-4.PNG)

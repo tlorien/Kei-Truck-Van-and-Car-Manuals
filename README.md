@@ -28,26 +28,20 @@ Contributions are what make the open source community such an amazing place to l
 
 ### Contributing Guidelines
 
-Please review our `CONTRIBUTING.md` for detailed information on our code of conduct and the process for submitting pull requests to us.
+Please review our [contribute.md](https://github.com/tlorien/Kei-Truck-Van-and-Car-Manuals/blob/main/contribute.md) for detailed information on our code of conduct and the process for submitting pull requests to us.
 
 ## Community
 
 This project thrives on your support and involvement. By participating, you are helping countless Kei vehicle owners and enthusiasts to better understand and maintain their vehicles.
 
-### Stay Connected
-
-Join our community on:
-- [GitHub Discussions](#)
-- [Slack](#) (or any other communication platform)
-
 ## Acknowledgments
 
 - Thanks to everyone who has contributed to translating and maintaining manuals.
-- Special thanks to vehicle experts and enthusiasts who provide ongoing support and advice.
+- Special thanks to the kei vehicle experts and enthusiasts who have provided their support and advice.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the GNU License - see the [LICENSE](https://github.com/tlorien/Kei-Truck-Van-and-Car-Manuals/blob/main/LICENSE) file for details.
 
 ## Contact
 
@@ -56,7 +50,5 @@ For any further queries, please reach out to us at [keicarmanuals@mail.com](mail
 ## Support Us
 
 Consider starring the repo if you find it useful, or contributing to the project to help it grow!
-
----
 
 Happy Motoring!
