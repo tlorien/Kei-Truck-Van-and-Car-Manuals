@@ -197,7 +197,7 @@ footer {
 }
 
 .manual-nav {
-    list-style-type: none; /* Removes bullet points from the list */
+    list-style-type: none; 
     padding: 0;
 }
 
@@ -216,4 +216,39 @@ footer {
 
 .nav-button:hover {
     background-color: #0056b3;
+}
+table {
+  width: 100%; 
+  border-collapse: collapse; 
+  margin: 20px 0; 
+}
+
+th {
+  background-color: #f2f2f2; 
+  color: #333; 
+  font-weight: bold; 
+  text-align: left; 
+  padding: 12px 15px; 
+}
+
+td {
+  border-bottom: 1px solid #ddd; 
+  padding: 8px 15px; 
+}
+
+tr:hover {
+  background-color: #e8e8e8; 
+}
+
+tr:nth-child(odd) {
+  background-color: #f9f9f9; 
+}
+
+td a {
+  color: #0645ad; 
+  text-decoration: none; 
+}
+
+td a:hover {
+  text-decoration: underline; 
 }
