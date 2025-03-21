@@ -6,7 +6,9 @@ permalink: /contribute/
 
 # Contribute to {{ site.title }}
 
-We welcome contributions from everyone! Here’s how you can help:
+We welcome contributions from anyone who wishes to add new manuals or improve existing ones. If you're interested in helping out, please check out our repository on GitHub, or contact us for more information.
+
+Here’s how you can help:
 
 ## Translate Manuals
 Help us expand our reach by translating manuals into different languages.
@@ -22,15 +24,10 @@ Have access to a manual we don’t have? Submit it to our repository.
 - Make your changes.
 - Submit a pull request.
 
-# Contact Us
+## Donate
 
-If you have questions about Kei Car Manuals, want to contribute, or need assistance, please don't hesitate to reach out to us.
+Translating manuals is time consuming work. Show your support by [buying us a coffee!]({{ site.donate }})
 
-## Email
+## Contact Us
 
-- **Support:** {{ site.email }}
-
-## Follow Us
-
-- [Twitter](https://twitter.com/keicarmanuals)
-- [Facebook](https://facebook.com/keicarmanuals)
+**Contact**: {{ site.email }}

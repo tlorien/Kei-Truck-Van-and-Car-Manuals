@@ -1,12 +1,13 @@
 # Site settings
-title: Kei Truck, Van, and Car Manuals
+title: Kei Docs
 email: keicarmanuals@mail.com
 description: >-
-  Kei Car Manuals is a community-driven project providing accessible,
+  Kei Docs is a community-driven project providing accessible,
   comprehensive manuals for all Kei vehicle models.
 baseurl: "/Kei-Truck-Van-and-Car-Manuals"
 url: "https://tlorien.github.io"
 github_username:  tlorien
+donate: https://www.buymeacoffee.com/tlorien
 
 # Build Settings
 markdown: kramdown
@@ -16,17 +17,11 @@ plugins:
   - jekyll-seo-tag
 
 # SEO tags
-author: Kei Car Manuals Team
-github_username: tlorien
+author: Kei Docs Team
 
 # Plugins configurations
 jekyll-feed:
   path: "feed.xml"
-
-collections:
-  manuals:
-    output: true
-    permalink: /manuals/:path/
 
 # Data settings
 data_dir: _data

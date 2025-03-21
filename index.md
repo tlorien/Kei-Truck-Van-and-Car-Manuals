@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home - Kei Car Manuals
+title: Home
 permalink: /
 ---
 
@@ -10,7 +10,7 @@ Discover and contribute to the most comprehensive and accessible repository of t
 
 ## Get Started
 
-[Get started by searching through our manuals here!](/manuals)
+[Get started by searching through our manuals here!](/manuals/)
 
 ## How to Contribute
-Interested in contributing? We are always looking for volunteers to help translate, update, and expand our manuals. Visit our [Contribute page](/contribute) for more information on how you can help.
+Interested in contributing? We are always looking for volunteers to help translate, update, and expand our manuals. Visit our [Contribute page](/contribute/) for more information on how you can help.

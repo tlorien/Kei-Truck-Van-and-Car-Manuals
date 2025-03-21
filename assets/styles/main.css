@@ -29,8 +29,6 @@ body {
   align-items: center;
 }
 
-
-
 header {
   background: #007BFF;
   color: white;
@@ -39,7 +37,6 @@ header {
   align-items: center;
   justify-content: space-between;
 }
-
 
 .logo {
   flex: 1;
@@ -50,7 +47,6 @@ header {
   width: auto;
   max-width: 100%;
 }
-
 
 nav {
   flex: 3;
@@ -84,7 +80,6 @@ nav ul li a:hover, nav ul li a:focus {
   border-radius: 4px;
 }
 
-
 footer {
   background: #007BFF;
   color: white;
@@ -92,7 +87,6 @@ footer {
   text-align: center;
   font-size: 14px;
 }
-
 
 .footer-container {
   display: flex;
@@ -124,7 +118,6 @@ footer {
   color: white;
 }
 
-
 @media (max-width: 768px) {
   .footer-container, .manual-navigation {
     text-align: center;
@@ -149,7 +142,6 @@ footer {
     margin-top: 10px;
   }
 }
-
 
 .manual-navigation {
   display: flex;
@@ -202,4 +194,26 @@ footer {
 
 .sitemap a:hover {
   color: #0056b3;
+}
+
+.manual-nav {
+    list-style-type: none; /* Removes bullet points from the list */
+    padding: 0;
+}
+
+.nav-button {
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 4px;
+    background-color: #0078D7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+}
+
+.nav-button:hover {
+    background-color: #0056b3;
 }
