@@ -24,4 +24,4 @@ Conventional vehicles (naturally aspirated vehicles): Timer-activated (operates 
 
 New vehicles (all vehicles): Fan operates only when temperature rises based on interior temperature sensing
 
-![img](../assets/images/2-1-1.PNG)
+![img](/assets/images/2-1-1.PNG)

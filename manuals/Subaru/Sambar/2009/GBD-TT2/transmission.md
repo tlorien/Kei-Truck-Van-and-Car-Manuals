@@ -13,10 +13,10 @@ chassis: "GBD-TT2"
 
 A new 5MT (SC, selective 4WD, no EL, with ABS) has been added. (Oil type, capacity, and maintenance schedule are the same as the previous model.)
 
-![img](../assets/images/3-1-1.PNG)
+![img](/assets/images/3-1-1.PNG)
 5MT Selective 4WD (without EL)
 
-![img](../assets/images/3-1-2.PNG)
+![img](/assets/images/3-1-2.PNG)
 Already set from previous model (for reference)
 
 EL gear (circled)
