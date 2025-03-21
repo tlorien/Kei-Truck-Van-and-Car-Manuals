@@ -3,35 +3,6 @@ layout: default
 title: Contribute
 permalink: /contribute/
 ---
-
-# Contribute to {{ site.title }}
-
-We welcome contributions from anyone who wishes to add new manuals or improve existing ones. If you're interested in helping out, please check out our repository on GitHub, or contact us for more information.
-
-Here’s how you can help:
-
-## Translate Manuals
-Help us expand our reach by translating manuals into different languages.
-
-## Update Existing Manuals
-If you notice any discrepancies or outdated information, please help us update these manuals.
-
-## Submit New Manuals
-Have access to a manual we don’t have? Submit it to our repository.
-
-## How to Get Started
-- Fork our GitHub repository.
-- Make your changes.
-- Submit a pull request.
-
-## Contact Us
-
-**Contact**: {{ site.email }}
-
----
-
-New:
-
 # Contributing to the Kei Truck, Van, and Car Manuals Project
 
 Thank you for your interest in contributing! This project aims to recreate translated manuals for Kei vehicles as clean, accessible, web-based pages. Every contribution helps improve access to these resources for everyone world-wide.

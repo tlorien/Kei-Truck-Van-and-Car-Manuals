@@ -625,3 +625,5 @@ If the malfunction does not occur again within three consecutive drive cycles, t
 - Engine
 
 ![img](/assets/images/6-1-4.PNG)
+
+![img](/assets/images/6-1-5.PNG)
