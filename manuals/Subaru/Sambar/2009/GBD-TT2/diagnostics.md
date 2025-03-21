@@ -620,4 +620,4 @@ If the malfunction does not occur again within three consecutive drive cycles, t
   </tr>
 </table>
 
-<img src="/assets/images/6-1-3.PNG">
+![img](/assets/images/6-1-3.PNG)
