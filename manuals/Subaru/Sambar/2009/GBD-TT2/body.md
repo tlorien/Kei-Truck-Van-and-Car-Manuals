@@ -8,7 +8,7 @@ chassis: "GBD-TT2"
 ---
 
 # {{ page.title }}
-### 4-1 Body Structure
+## 4-1. Body Structure
 
 - The exterior design (sheet metal panel surface) has been changed to improve marketability.
 - The front grill has been eliminated.
@@ -19,8 +19,8 @@ chassis: "GBD-TT2"
 
 ![img](/assets/images/4-1-2.PNG)
 
-### 4-2 Body exterior
-#### A: Door mirrors & front side mirrors
+## 4-2. Body exterior
+### A: Door mirrors & front side mirrors
 
 - Due to the change in the front design, the shape of the front side mirror mounting base has been changed.
 
@@ -30,7 +30,7 @@ chassis: "GBD-TT2"
 
 ![img](/assets/images/4-2-2.PNG)
 
-#### B: Front bumper
+### B: Front bumper
 
 - A new front bumper has been manufactured to match the change in exterior design.
 
@@ -40,13 +40,13 @@ chassis: "GBD-TT2"
 
 ![img](/assets/images/4-2-3.PNG)
 
-#### C: Front ornament
+### C: Front ornament
 
 With the new front panel, a large ornament has been added to it.
 
 ![img](/assets/images/4-2-4.PNG)
 
-#### D: Door
+### D: Door
 
 1. Regulator (sliding door)
 
@@ -60,12 +60,12 @@ The door outer handle protector that was previously used on the Dias Wagon has n
 
 ![img](/assets/images/4-2-6.PNG)
 
-### 4-3 Lighting
+## 4-3. Lighting
 In order to comply with regulations, high-mounted stop lamps are now installed on vans and panel vans.
 
 ![img](/assets/images/4-3-1.PNG)
 
-### 4-4 Interior
+## 4-4. Interior
 **A: Trim**
 
 ・The full trim version available on the conventional Dias Wagon has now been made available on the Dias Van.
@@ -105,7 +105,7 @@ In order to improve marketability, the following changes have been incorporated 
 
 ![img](/assets/images/4-4-2.PNG)
 
-### 4-5 Seats & Seatbelts
+## 4-5. Seats & Seatbelts
 **A: Sheet**
 
 The color of the seat upholstery has been changed from blue to dark blue.
@@ -118,17 +118,17 @@ The child seat fixing mechanism of the rear seat belts has been eliminated.
 
 ![img](/assets/images/4-5-1.PNG)
 
-### 4-6 Airbag
+## 4-6. Airbag
 The design of the driver's airbag module has been changed (for all vehicles).
 
 ![img](/assets/images/4-6-1.PNG)
 
-### 4-7 Electrical
+## 4-7. Electrical
 - For naturally aspirated vehicles, a harness has been added to route the thermistor inside the cabin. (Already installed on SC vehicles)
 
 - To comply with regulations, high mount lamps were added to the panel pan, so the harness was routed from the roof cord. (All panel vans)
 
-### 4-8 Instrument Panel / Dashboard Cluster
+### 4-8. Instrument Panel / Dashboard Cluster
 
 **A: Overview**
 
