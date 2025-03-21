@@ -35,7 +35,6 @@ If the malfunction does not occur again within three consecutive drive cycles, t
 #### A. Specifications (Electrical Equipment)
 ![img](/assets/images/6-1-2.PNG)
 
-
 <table>
   <tr>
     <th>Name</th>
@@ -618,6 +617,7 @@ If the malfunction does not occur again within three consecutive drive cycles, t
     <td colspan="2">Always approx. 0</td>
     <td></td>
   </tr>
+  </tr>
 </table>
-<img src="/assets/images/6-1-3.PNG">
 
+<img src="/assets/images/6-1-3.PNG">
