@@ -1040,7 +1040,7 @@ Wiring diagram:
   </tr>
   <tr>
     <td>
-      <STRONG>1.</STRONG> Check the power supply to the rear 2 sensors<br>
+      <STRONG>Step 1.</STRONG> Check the power supply to the rear 2 sensors<br>
       &nbsp;&nbsp;&nbsp;&nbsp;1. Turn the ignition switch OFF.<br>
       &nbsp;&nbsp;&nbsp;&nbsp;2. Disconnect the connector from the rear O2 sensor.<br>
       &nbsp;&nbsp;&nbsp;&nbsp;3. Turn the ignition switch ON.<br>
@@ -1053,7 +1053,7 @@ Wiring diagram:
     <td>Repair the power supply line.</td>
   </tr>
   <tr>
-    <td><STRONG>2.</STRONG> Check the harness between the ECU and the rear O2 sensor<br>
+    <td><STRONG>Step 2.</STRONG> Check the harness between the ECU and the rear O2 sensor<br>
       &nbsp;&nbsp;&nbsp;&nbsp;Measure the resistance between the ECU connector and the Rear O2 sensor connector.<br>
       &nbsp;&nbsp;&nbsp;&nbsp;Connectors & terminals:<br>
       &nbsp;&nbsp;&nbsp;&nbsp;(R133) No. 6 - (R114) No. 4</td>
@@ -1062,7 +1062,7 @@ Wiring diagram:
     <td>Repair the break in the harness between the ECU and the rear O2 sensor.</td>
   </tr>
   <tr>
-    <td><STRONG>3.</STRONG> Check the ECU earth circuit<br>
+    <td><STRONG>Step 3.</STRONG> Check the ECU earth circuit<br>
     &nbsp;&nbsp;&nbsp;&nbsp;1. Turn the ignition switch OFF.<br>
     &nbsp;&nbsp;&nbsp;&nbsp;2. Disconnect the connector from the ECU.<br>
     &nbsp;&nbsp;&nbsp;&nbsp;3. Check the harness between the ECU connector and the body ground. Measure resistance.<br>
@@ -1076,7 +1076,7 @@ Wiring diagram:
     <td>Repair the break in the hardness between the ECU and the body ground.</td>
   </tr>
   <tr>
-    <td><STRONG>4.</STRONG> Check the rear 2 sensors<br>
+    <td><STRONG>Step 4.</STRONG> Check the rear 2 sensors<br>
     &nbsp;&nbsp;&nbsp;&nbsp;1. Turn the ignition switch OFF.<br>
     &nbsp;&nbsp;&nbsp;&nbsp;2. Measure the resistance between the rear O2 sensor connector terminals.<br>
     &nbsp;&nbsp;&nbsp;&nbsp;Terminals:<br>
@@ -1086,3 +1086,148 @@ Wiring diagram:
     <td>Rear O2 sensor exchange.</td>
   </tr>
 </table>
+
+#### B: DTC P0038 O2 Sensor Heater Circuit (HIGH) (Bank 1 Sensor 2)
+**Notice**: After repairing or replacing the defective parts, execute the clear memory mode (see "Clear Memory Mode, Operation" on page 6-13) and the inspection mode (see "Inspection Mode, Procedure" on page 6-9).
+
+Wiring diagram:
+
+![img](/assets/images/6-1-11.PNG)
+
+<table>
+  <tr>
+    <th>Step</th>
+    <th>Check</th>
+    <th>Yes</th>
+    <th>No</th>
+  </tr>
+  <tr>
+    <td><STRONG>Step 1.</STRONG> Check the harness between the ECU and the rear O2 sensor<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;1. Turn the ignition switch OFF.<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;2. Disconnect the connector from the rear O2 sensor.<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;3. Measure the voltage between the ECU and body ground.<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;Connectors & Terminals:<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;(R133) No. 6 (+) - Body Earth (-)</td>
+    <td>Is the voltage 10V or higher?</td>
+    <td>Repair the power short in the harness between the ECU and the rear O2 sensor connector.</td>
+    <td>Proceed to step 2.</td>
+  </tr>
+  <tr>
+    <td><STRONG>Step 2.</STRONG> Check the ECU earth circuit<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;1. Disconnect the connector from the ECU.<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;2. Measure the resistance of the harness between the ECU connector and body ground.<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;Connectors & Terminals:<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;(R133) No. 3 - Body Earth<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;(R133) No. 4 - Body Earth<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;(R135) No. 1 - Body Earth<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;(R135) No. 2 - Body Earth</td>
+    <td>Is the resistance below 52?</td>
+    <td>Repair the poor contact of the ECU connector. If there is a problem, replace the ECU.</td>
+    <td>Repair the break in the harness between the ECU connector and the body ground.</td>
+  </tr>
+</table>
+
+#### C: DTC P0136 O2 Sensor Circuit (Bank 1 Sensor 2)
+**Notice**: After repairing or replacing the defective parts, execute the clear memory mode (see "Clear Memory Mode, Operation" on page 6-13) and the inspection mode (see "Inspection Mode, Procedure" on page 6-9).
+
+Wiring diagram:
+
+![img](/assets/images/6-1-12.PNG)
+
+<table>
+  <tr>
+    <th>Step</th>
+    <th>Check</th>
+    <th>Yes</th>
+    <th>No</th>
+  </tr>
+  <tr>
+    <td><STRONG>Step 1.</STRONG> Check the screen for other DTCs.</td>
+    <td>Are any other DTCs showing up?</td>
+    <td>Check the DTCs using the "Diagnostic Code (DTC) Table". (See "Diagnostic Code (DTC) Table" on page 6-14.)</td>
+    <td>Go to Step 2.</td>
+  </tr>
+  <tr>
+    <td><STRONG>Step 2.</STRONG> Checking rear 2 sensor data<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;1. Warm up the engine until the engine coolant temperature exceeds 70°C (158°F), then maintain the engine speed between 2,000 rpm and 3,000 rpm for two minutes.<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;2. Use the Subaru Select Monitor to read the rear O2 sensor signal data.</td>
+    <td>Is the voltage below 1.0V?</td>
+    <td>Proceed to Step 3.</td>
+    <td>Proceed to Step 8.</td>
+  </tr>
+  <tr>
+    <td><STRONG>Step 3.</STRONG> Check the harness between the ECU and the rear O2 sensor connector.<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;1. Turn the ignition switch ON.<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;2. Measure the voltage between the ECU connector and body ground.<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;Connectors & Terminals:<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;(R133) No. 16 (+) - Body Earth (-)</td>
+    <td>Is the voltage 10V or higher?</td>
+    <td>Repair the power short in the harness between the ECU and the rear O2 sensor connector.</td>
+    <td>Proceed to Step 4.</td>
+  </tr>
+  <tr>
+    <td><STRONG>Step 4.</STRONG> Harness between ECU and rear O2 sensor connector:<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;Inspection<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;1. Turn the ignition switch OFF.<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;2. Disconnect the connector from the ECU and the rear O2 sensor.<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;3. Measure the resistance between the rear O2 sensor connector and body ground.<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;Connectors & Terminals:<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;(R114) No. 3 - Body Earth</td>
+    <td>Is the resistance greater than 1MΩ?</td>
+    <td>Proceed to Step 5.</td>
+    <td>Repair the ground short in the harness between the ECU and the rear O2 sensor connector.</td>
+  </tr>
+  <tr>
+    <td><STRONG>Step 5.</STRONG> Check the rear 2 sensor data<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;1. Connect all connectors.<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;2. Idle the engine.<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;3. Idle the engineUse the Subaru Select Monitor to check the rear O2 sensor. Read the data of the sensor signal.</td>
+    <td>Is the voltage 0.7 to 0.09V?</td>
+    <td>Proceed to Step 6.</td>
+    <td>Replace the rear O2 sensor.</td>
+  </tr>
+  <tr>
+    <td><STRONG>Step 6.</STRONG> Harness between ECU and rear O2 sensor connector:<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;Inspection:<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;1. Turn the ignition switch OFF.<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;2. Disconnect the connectors from the ECU and the rear O2 sensor.<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;3. Measure the resistance of the harness between the ECU and the rear O2 sensor connector.<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;Connectors & Terminals:<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;(R133) No. 16 - (R114) No.3</td>
+    <td>Resistance less than 12?</td>
+    <td>Proceed to Step 7.</td>
+    <td>Repair the open circuit in the harness between the ECU and the rear O2 sensor connector.</td>
+  </tr>
+  <tr>
+    <td><STRONG>Step 7.</STRONG> Harness between rear O2 sensor and ECU connector<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;Inspection:<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;1. Connect the connector to the ECU and rear O2 sensor..<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;2. Turn the ignition switch ON.<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;3.  Replace the rear O2 sensor harness connector and tighten the ground terminal.<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;Connectors & Terminals:<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;(R114) No. 3 (+) - Body Earth (-)</td>
+    <td>Is the voltage less than 0.2V?</td>
+    <td>Repair poor contact in the rear O2 sensor connector and ECU connector.</td>
+    <td>Replace the rear O2 sensor.</td>
+  </tr>
+  <tr>
+    <td><STRONG>Step 8.</STRONG> Engine System Inspection<br>
+    Inspect the exhaust system components.<br>
+    Reference:<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;Check the following items:<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;- Loose and incompletely installed exhaust system parts<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;- Damage to parts (cracks, holes, etc.)<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;- Parts between the front O2 sensor and the reas O2 sensor
+    &nbsp;&nbsp;&nbsp;&nbsp;- Loose and incomplete installation</td>
+    <td>Is there a problem with the exhaust system?</td>
+    <td>Repair or replace defective parts.</td>
+    <td>Replace the rear O2 sensor.</td>
+  </tr>
+</table>
+
+#### D: DTC P0139 O2 Sensor Response (Bank 1 Sensor 2)
+**Notice**: After repairing or replacing the defective parts, execute the clear memory mode (see "Clear Memory Mode, Operation" on page 6-13) and the inspection mode (see "Inspection Mode, Procedure" on page 6-9).
+
+Wiring diagram:
+
+![img](/assets/images/6-1-13.PNG)
