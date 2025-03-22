@@ -15,14 +15,14 @@ The on-board diagnostic (OBD) system detects and indicates malfunctions in the i
 - In addition, a fail-safe function is installed to ensure a minimum level of driving performance in the event that the vehicle is unable to drive due to sensor failure.
 - The OBD system installed in vehicles with this type of engine complies with JOBD regulations. The OBD system monitors for failures of the components and systems described in the "Engine section" that affect emissions.
 
-- When the system detects a malfunction, the engine warning light comes on. At the same time that the engine warning light comes on or flashes, the DTC and engine freeze frame status are stored in the on-board computer.
+- When the system detects a malfunction, the engine warning light comes on. At the same time that the engine warning light comes on or flashes, the [(DTC) table](#6-diagnostic-code-dtc-list) and engine freeze frame status are stored in the on-board computer.
 - When the OBD system detects a malfunction, it stores engine status data (engine load, engine coolant temperature, fuel trim, engine RPM, vehicle speed, etc.) in the freeze frame in the on-board computer.
 
-The stored freeze frame engine status data will be maintained until the DTC is cleared, but the freeze frame
+The stored freeze frame engine status data will be maintained until the [(DTC) table](#6-diagnostic-code-dtc-list) is cleared, but the freeze frame
 
 ● If a fuel trim or misfire malfunction is detected while the engine status data in the frame is being maintained, it will be overwritten with the engine status data 4 in the freeze frame related to fuel trim or misfire.
 
-If the malfunction does not occur again within three consecutive drive cycles, the engine warning light will go off but the DTC will remain in the on-board computer.
+If the malfunction does not occur again within three consecutive drive cycles, the engine warning light will go off but the [(DTC) table](#6-diagnostic-code-dtc-list) will remain in the on-board computer.
 - When diagnosing vehicle malfunctions, connect the Subaru Select Monitor to the vehicle.
 
 #### B: Preparation Tools
@@ -629,12 +629,9 @@ If the malfunction does not occur again within three consecutive drive cycles, t
 ![img](/assets/images/6-1-5.PNG)
 
 ### 3. Inspection mode
+A: Carry out the diagnosis shown in the following diagnostic code [(DTC) table](#6-diagnostic-code-dtc-list).
 
-A: Carry out the diagnosis shown in the following diagnostic code (DTC) table.
-
-When performing a diagnosis that is not shown in the diagnostic code (DTC) table, refer to the drive cycle section.
-
-([See 6-12 "Drive Cycle".]()) //* TO DO//
+When performing a diagnosis that is not shown in the diagnostic code [(DTC) table](#6-diagnostic-code-dtc-list), refer to the drive cycle section. ([See 6-12 "Drive Cycle".](#4-drive-cycle))
 
 <table>
   <tr>
@@ -854,4 +851,238 @@ When performing a diagnosis that is not shown in the diagnostic code (DTC) table
   </tr>
 </table>
 
-    <td colspan="2"></td>
+1. Preparation for Inspection
+    1. Make sure there is about half a fuel tank [10~20 liters (2.7~5.3 US gal, 2.2~ 4.4 Imp gal)] remaining and the battery voltage is 12 V or higher.
+    2. Use a garage jack to jack up the vehicle and place it on a rigid rack or run the vehicle on free rollers.
+
+**Warning**:
+- Before jacking up the vehicle, make sure the parking brake is on.
+- Do not use a pantograph jack instead of a rigid rack.
+- Attach a rope or wire to the front or rear towing hook to prevent the front wheel from swaying sideways.
+- Before you spin the wheels, make sure there is no one in front of the vehicle, and keep no one in front of the vehicle while you are spinning the wheels.
+- Make sure there are no obstacles near the wheels, especially all four wheels if you have an AWD model.
+- While working, do not suddenly press or release the clutch pedal or accelerator pedal, regardless of the engine speed. Sudden operation may cause the vehicle to separate from the free rollers.
+- To prevent the vehicle from slipping due to vibration, do not place anything between the rigid rack and the vehicle.
+
+![img](/assets/images/6-1-6.PNG)
+
+2. Subaru Select Monitor
+    1. After clearing the memory, check that no unsolved fault data remains. (See 6-13 "Clear Memory Mode".)
+    2. Warm up the engine.
+    3. Prepare the Subaru Select Monitor Kit. [6-2 "Overview and Preparation Tools."](#b-preparation-tools)
+       ![img](/assets/images/6-1-7.PNG)
+    4. Prepare a computer with the Spartan Select Monitor installed.
+    5. Connect the USB cable to the SDI (Subaru Diagnostic Interface) and the computer's USB port (Subaru Select Monitor dedicated port).
+    
+       > Reference:
+       - The Subaru Select Monitor dedicated port refers to the USB port used when installing the Subaru Select Monitor.
+
+    6. Connect the diagnostic cable to SDI.
+    7. Connect the test mode connector (A) located at the bottom of the instrument panel (driver's side).
+    
+        ![img](/assets/images/6-1-8.PNG)
+    8. Connect the SDI to the data link connector installed at the bottom of the instrument panel (driver's seat side).
+
+        ![img](/assets/images/6-1-9.PNG)
+
+        **Notice**: Do not connect any scan tools other than the Subaru Select Monitor.
+    9. Start your computer.
+    10. Turn the ignition switch ON (engine OFF) and launch the "Subaru Select Monitor PC Application."
+    11. On the main menu screen, select "Individual System Check."
+    12. On the «System Selection Menu» screen, select {Engine}.
+    13. After the engine type information is displayed, click the [OK] button.
+    14. On the "Engine Fault Diagnosis" screen, select "D Check."
+    15. When the message "Do you want to perform a D check?" appears on the screen, click the [Next] button.
+    16. Follow the next steps as instructed on the screen.
+        
+        > Reference:
+        - If a malfunction remains in the memory, the corresponding DTC will be displayed on the screen.
+        - For detailed operating procedures, refer to the "Subaru Select Monitor PC Application Help."
+        - For details on the DTC, refer to the diagnostic code (DTC) table. (See [Diagnostics Code (DTC) table](#6-diagnostic-code-dtc-list) on page 6-14.)
+        - If the speed difference between the front and rear wheels occurs, the ABS warning light may come on, but this is not a malfunction. After the engine control diagnosis is complete, perform the ABS memory clear procedure in the self-diagnosis function.
+
+### 4. Drive cycle
+#### A: Procedure
+The drive patterns shown below are used to diagnose malfunctions. By implementing the specified drive patterns, the malfunctions listed below can be diagnosed. After repairing the malfunctions listed below, be sure to implement the required drive pattern and check that the function has been restored correctly.
+
+1. Preparing the Drive Cycle
+    1. Make sure there is about half a tank of fuel [10~20 liters (2.7~5.3 US gal, 2.2~4.4 Imp gal)] remaining and the battery voltage is 12V or higher.
+    2. Disconnect the test mode connector.
+        > Reference:
+        - Unless the engine coolant temperature is specified at start-up, always perform the diagnosis after the engine has warmed up.
+        - If the DTC has an * mark, perform the diagnosis twice. After the first diagnosis is completed, stop the engine and perform the second diagnosis under the same conditions.
+2. Drive cycle 1 (Drive for 20 minutes at 55-65 km/h, then idle the engine for 3 minutes.)
+    > Reference:
+    - If it is not possible to drive continuously for 20 minutes, drive the vehicle while meeting the following conditions 4 to 5 times without turning off the engine.
+    - Each run lasts approximately 5 minutes.
+    - Drive at a constant speed (55-65km/h).
+    - Reduce acceleration and deceleration (throttle operation) while driving at a constant speed.
+
+<table>
+  <tr>
+    <th>DTC</th>
+    <th>Project</th>
+    <th>Condition</th>
+  </tr>
+  <tr>
+    <td>*P0133</td>
+    <td>O2 Sensor response (Bank 1 Sensor 1)</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>*P0139</td>
+    <td>O2 Sensor response (Bank 1 Sensor 2)</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>*P0171</td>
+    <td>Fuel System 1 (Lean)</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>*P0172</td>
+    <td>Fuel System 1 (Rich)</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>*P0301</td>
+    <td>#1 Cylinder misfire</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>*P0302</td>
+    <td>#2 Cylinder misfire</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>*P0303</td>
+    <td>#3 Cylinder misfire</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>*P0304</td>
+    <td>#4 Cylinder misfire</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>*P0420</td>
+    <td>Catalyst system</td>
+    <td></td>
+  </tr>
+</table>
+
+### 5. Clear Memory Mode
+#### A: Operation
+1. On the main menu screen, select "Individual System Check."
+2. On the «System Selection Menu» screen, select {Engine}.
+3. After the engine type information is displayed, click the [OK] button.
+4. On the ENGINE DIAGNOSIS screen, select MEMORY CLEAR.
+5. When the message "Do you want to clear memory?" appears on the screen, click the [Yes] button.
+6. When "Executed" and "Turn IG SW OFF" are displayed on the screen, turn the ignition switch OFF.
+    > Reference:
+    - For detailed operating procedures, refer to the "Subaru Select Monitor PC Application Help."
+
+### 6. Diagnostic Code (DTC) List
+#### A: List
+
+<table>
+  <tr>
+    <th>DTC</th>
+    <th>Project</th>
+    <th>Reference</th>
+  </tr>
+  <tr>
+    <td>P0037</td>
+    <td>O2 Sensor Heater Circuit (LOW) (Tire 1 Sensor 2)</td>
+    <td>(See 6-15 "Diagnostic Procedures Using Diagnostic Codes (DTCs)", DTC P0037<br>
+    (See "O2 Sensor Heater Circuit (LOW) (Bank 1 Sensor 2)"</td>
+  </tr>
+  <tr>
+    <td>P0038</td>
+    <td>O2 Sensor Heater Circuit (HIGH) (Bank 1 Sensor 2)</td>
+    <td>(See 6-17 "Diagnostic Procedures Using Diagnostic Codes (DTCs)", DTC P0038<br>
+    (See "O2 Sensor Heater Circuit (HIGH) (Bank 1 Sensor 2)"</td>
+  </tr>
+  <tr>
+    <td>P0136</td>
+    <td>O2 Sensor Circuit (Bank 1 Sensor 2)</td>
+    <td>6-19 "Diagnostic Procedures Using Diagnostic Codes (DTCs) DTC P0136<br>
+    (See "O2 Sensor Circuit (Bank 1 Sensor 2)"</td>
+  </tr>
+  <tr>
+    <td>P0139</td>
+    <td>O2 Sensor Response (Bank 1 Sensor 2)</td>
+    <td>(See 6-22 "Diagnostic Procedures Using Diagnostic Codes (DTCs)," DTC P0139<br>
+    (See "O2 Sensor Response (Bank 1 Sensor 2)"</td>
+  </tr>
+  <tr>
+    <td>P0420</td>
+    <td>Catalyst system</td>
+    <td>(See 6-24 "Diagnostic Procedures Using Diagnostic Codes (DTCs)," DTC P0420<br>
+    (See "Catalyst Systems.")</td>
+  </tr>
+</table>
+
+### 7. Diagnostic Procedures When Using Diagnostic Codes (DTC)
+#### A: DTC P0037 O2 Sensor Heater Circuit (LOW) (Bank 1 Sensor 2)
+**Notice**: After repairing or replacing the defective parts, execute the clear memory mode (see "Clear Memory Mode, Operation" on page 6-13) and the inspection mode (see "Inspection Mode, Procedure" on page 6-9).
+
+Wiring diagram:
+
+![img](/assets/images/6-1-10.PNG)
+
+<table>
+  <tr>
+    <th>Step</th>
+    <th>Check</th>
+    <th>Yes</th>
+    <th>No</th>
+  </tr>
+  <tr>
+    <td>
+      <STRONG>1.</STRONG> Check the power supply to the rear 2 sensors<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;1. Turn the ignition switch OFF.<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;2. Disconnect the connector from the rear O2 sensor.<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;3. Turn the ignition switch ON.<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;4. Between the rear O2 sensor connector and body ground measure voltage.<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;Connectors & terminals:<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;(R114) No.2 (+) - Body Earth (-)
+    </td>
+    <td>Is the voltage 10V or more?</td>
+    <td>Proceed to step 2.</td>
+    <td>Repair the power supply line.</td>
+  </tr>
+  <tr>
+    <td><STRONG>2.</STRONG> Check the harness between the ECU and the rear O2 sensor<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;Measure the resistance between the ECU connector and the Rear O2 sensor connector.<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;Connectors & terminals:<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;(R133) No. 6 - (R114) No. 4</td>
+    <td>Is the resistance less than 12?</td>
+    <td>Proceed to step 3.</td>
+    <td>Repair the break in the harness between the ECU and the rear O2 sensor.</td>
+  </tr>
+  <tr>
+    <td><STRONG>3.</STRONG> Check the ECU earth circuit<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;1. Turn the ignition switch OFF.<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;2. Disconnect the connector from the ECU.<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;3. Check the harness between the ECU connector and the body ground. Measure resistance.<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;Connectors & terminals:<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;(R133) No. 3 - Body Earth<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;(R133) No. 4 - Body Earth<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;(R135) No. 1 - Body Earth<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;(R135) No. 2 - Body Earth</td>
+    <td>Is the resistance below 52?</td>
+    <td>Proceed to step 4.</td>
+    <td>Repair the break in the hardness between the ECU and the body ground.</td>
+  </tr>
+  <tr>
+    <td><STRONG>4.</STRONG> Check the rear 2 sensors<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;1. Turn the ignition switch OFF.<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;2. Measure the resistance between the rear O2 sensor connector terminals.<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;Terminals:<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;No. 1 - No.2</td>
+    <td>Is the resistance 3.0~4.02?</td>
+    <td>Repair the poor contact of the ECU connector.</td>
+    <td>Rear O2 sensor exchange.</td>
+  </tr>
+</table>
