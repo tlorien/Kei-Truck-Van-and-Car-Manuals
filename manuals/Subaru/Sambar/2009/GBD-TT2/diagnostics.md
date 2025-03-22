@@ -1231,3 +1231,18 @@ Wiring diagram:
 Wiring diagram:
 
 ![img](/assets/images/6-1-13.PNG)
+
+
+  <tr>
+    <td><STRONG>Step 1.</STRONG> <br>
+    &nbsp;&nbsp;&nbsp;&nbsp;1. .<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;2. .<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;Connectors & Terminals:<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
