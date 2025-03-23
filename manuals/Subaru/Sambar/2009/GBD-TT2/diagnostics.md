@@ -1232,17 +1232,167 @@ Wiring diagram:
 
 ![img](/assets/images/6-1-13.PNG)
 
-
+<table>
+  <tr>
+    <th>Step</th>
+    <th>Check</th>
+    <th>Yes</th>
+    <th>No</th>
+  </tr>
   <tr>
     <td><STRONG>Step 1.</STRONG> <br>
-    &nbsp;&nbsp;&nbsp;&nbsp;1. .<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;2. .<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;Inspection:<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;1. Turn the ignition switch OFF.<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;2. Disconnect the connectors from the ECU and rear O2 sensor..<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;3. Measure the resistance of the harness between the ECU and the rear O2 sensor connector.<br>
     &nbsp;&nbsp;&nbsp;&nbsp;Connectors & Terminals:<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    &nbsp;&nbsp;&nbsp;&nbsp;(R133) No. 16 - (R114) No. 3</td>
+    <td>Resistance less than 12?</td>
+    <td>Proceed to Step 2.</td>
+    <td>Repair the break in the harness between the power connectors.</td>
   </tr>
+  <tr>
+    <td><STRONG>Step 2.</STRONG> Harness between ECU and rear O2 sensor connector<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;Inspection:<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;Measure the resistance between the rear O2 sensor connector and body ground.<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;Connectors & Terminals:<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;(R114) No. 3 - Body Earth</td>
+    <td>Is the resistance greater than 1MΩ?</td>
+    <td>Proceed to Step 3.</td>
+    <td>Repair the short to earth in the harness between the power connectors.</td>
+  </tr>
+  <tr>
+    <td><STRONG>Step 3.</STRONG> Check the rear 2 sensors<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;Measure the resistance between the rear O2 sensor terminals..<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;Terminals:<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;No. 3 - No. 1</td>
+    <td>Is the resistance less than 12?</td>
+    <td>Rear O2 sensor exchange</td>
+    <td>Even if the powertrain warning light comes on, the circuit has returned to  normal at this point. Recreate the fault and perform the diagnosis again.<br>
+    <br>
+    Reference:<br>
+    In this case, a temporary connector contact failure may be the cause.</td>
+  </tr>
+</table>
+
+#### E: DTC P0420 Catalyst system
+
+**Notice**: After repairing or replacing the defective parts, execute the clear memory mode (see "Clear Memory Mode, Operation" on page 6-13) and the inspection mode (see "Inspection Mode, Procedure" on page 6-9).
+
+Wiring diagram:
+
+![img](/assets/images/6-1-14.PNG)
+
+<table>
+  <tr>
+    <th>Step</th>
+    <th>Check</th>
+    <th>Yes</th>
+    <th>No</th>
+  </tr>
+  <tr>
+    <td><strong>Step 1.</strong> Inspecting the exhaust system<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;Check for gas leaks or air inhalation caused by loose or missing nuts and bolts, and for holes in the exhaust pipe.<br>
+      Reference:<br>
+      Check the following locations.<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;- Between the cylinder head and the front exhaust pipe<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;- Between the front exhaust pipe and the front catalyst<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;- Between the front and rear catalysts<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;- The front O2 sensor or rear O2 sensor is loose or incompletely installed.</td>
+    <td>Is there a problem with the exhaust system?</td>
+    <td>Repair or replace the exhaust system</td>
+    <td>Proceed to Step 2.</td>
+  </tr>
+  <tr>
+    <td><strong>Step 2.</strong> Checking the waveform data on the Subaru Select Monitor (while driving)<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;1. Drive at a constant speed of 55-66km/h.<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;2. After 5 minutes have elapsed in the state of Step 1), use the Subaru Select Monitor to read the waveform data while the vehicle is still driving.<br>
+      - Normal:<br>
+      <img src="/assets/images/6-1-15.PNG" alt="Normal Waveform"><br>
+      - When abnormal (many inversions)<br>
+      <img src="/assets/images/6-1-16.PNG" alt="Abnormal Waveform"><br>
+    </td>
+    <td>Is the normal waveform displayed?</td>
+    <td>Even if the powertrain warning light comes on, the circuit has returned to normal at this point. Recreate the fault and perform the diagnosis again.<br>
+      Reference:<br>
+      In this case, a temporary connector contact failure is suspected.</td>
+    <td>Proceed to Step 3.</td>
+  </tr>
+  <tr>
+    <td><STRONG>Step 3.</STRONG> Checking the waveform data on the Subaru Select Monitor (while idling)<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;1. Idle the vehicle.<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;2. While in Step 1), use the Subaru Select Monitor to read the waveform data.<br>
+    - Normal:<br>
+    <img src="/assets/images/6-1-17.PNG" alt="Normal Waveform"><br>
+    - Abnormality 1 (many inversions)<br>
+    <img src="/assets/images/6-1-18.PNG" alt="Abnormality 1"><br>
+    - Abnormality 2 (noise mixed)<br>
+    <img src="/assets/images/6-1-19.PNG" alt="Abnormality 2"><br></td>
+    <td>Is the normal waveform displayed?</td>
+    <td>Proceed to Step 4.</td>
+    <td>- If the waveform of abnormality 1 is displayed: Go to Step 4.<br>
+    - If the waveform of abnormality 2 is displayed, proceed to Step 5.</td>
+  </tr>
+  <tr>
+    <td><STRONG>Step 4.</STRONG> Inspecting the catalyst</td>
+    <td>Is there damage to the catalyst?</td>
+    <td>Replace the catalyst</td>
+    <td>Proceed to Step 5.</td>
+  </tr>
+  <tr>
+    <td><STRONG>Step 5.</STRONG> Check the rear 2 sensor connector and intermediate connector</td>
+    <td>Has water gotten into the connector?</td>
+    <td>Completely prevent water ingress.</td>
+    <td>Proceed to Step 6.</td>
+  </tr>
+  <tr>
+    <td><STRONG>Step 6.</STRONG> Harness between ECU and rear O2 sensor connector<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;Inspection:<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;1. Turn the ignition switch OFF.<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;2. Disconnect the connectors from the ECU and rear O2 sensor.<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;3. Measure the resistance of the harness between the ECU and the rear O2 sensor connector.<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;Connectors & Terminals:<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;(R133) No. 16 - (R114) No. 3<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;(R133) No. 25 - (R114) No. 1</td>
+    <td>Resistance less than 12?</td>
+    <td>Proceed to Step 7.</td>
+    <td>Repair the harness and connectors.<br>
+    Reference:<br>
+    <br>
+    Repair the following locations:<br>
+    <br>
+    - Disconnection in the harness between the ECU and the rear O2 sensor connector.<br>
+    - Poor contact at the short connector.</td>
+  </tr>
+  <tr>
+    <td><STRONG>Step 7.</STRONG> Harness between ECU and rear O2 sensor connector<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;Inspection:<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;1. Connect the connector to the ECU.<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;2. Turn the ignition switch ON.<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;3. Measure the voltage between the rear O2 sensor connector and body ground.<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;Connectors & Terminals:<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;(R114) No. 3 (+) - Body Earth (-)</td>
+    <td>Is the voltage 0.2 to 0.5V?</td>
+    <td>Proceed to Step 8.</td>
+    <td>Repair the harness and connector.<br>
+    Reference:<br>
+    <br>
+    Repair the following locations:<br>
+    <br>
+    - Open circuit between ECU and rear O2 sensor<br>
+    - Poor contact of the ECU connector</td>
+  </tr>
+  <tr>
+    <td><STRONG>Step 8.</STRONG> Check the rear 2 sensor shield<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;1. Turn the ignition switch OFF.<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;2. Expose the sensor shield on the body side harness of the rear O2 sensor connector.<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;3. Measure the resistance between the sensor shield and body ground.</td>
+    <td>Is the resistance less than 12?</td>
+    <td>Replace the rear O2 sensor.</td>
+    <td>Repair the disconnection in the rear O2 sensor heater circuit.</td>
+  </tr>
+</table>
+
+## 6-2. SC Engine (Diagnosis)
+### 1. Clear memory mode
+#### A: Operation
