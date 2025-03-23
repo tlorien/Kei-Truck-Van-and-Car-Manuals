@@ -31,20 +31,25 @@ Each manual has its own /assets/ folder for manual-specific assets. Generic shar
 
 **Example:**
 ```
-/assets/                            # Shared asset directory
+/assets/                                      # Shared asset directory
 │── images/
-│   ├── /brand-logos                # Contains logos for all brands
-│   │   ├── subaru.svg              # Example generic logo for Subaru
-/manuals/                           # Root manual directory
-│── Subaru/                         # Car brand
-│   ├── Sambar/                     # Car model
-│   │   ├── 2009/                   # Year
-│   │   │   ├── GBD-TT2/            # Chassis code
-│   │   │   │   ├── index.md        # Lists all sections in GBD-TT2
+│   ├── /brand-logos                          # Contains logos for all brands
+│   │   ├── subaru.svg                        # Example generic logo for Subaru
+/manuals/                                     # Root manual directory
+│── Subaru/                                   # Car brand
+│   ├── Sambar/                               # Car model
+│   │   ├── 2009/                             # Year
+│   │   │   ├── GBD-TT2/                      # Chassis code
+│   │   │   │   ├── index.md                  # Lists all sections in GBD-TT2
 │   │   │   │   ├── engine.md
 │   │   │   │   ├── transmission.md
 │   │   │   │   ├── electrical.md
 │   │   │   │   ├── chassis.md
+│   │   │   │   ├── assets/                   # Manual-specific assets folder
+│   │   │   │   │   ├── images/
+│   │   │   │   │   │   ├── example-image.PNG # Example manual-specific image file.
+│   │   │   │   │   ├── styles/
+│   │   │   │   │   │   ├── subaru.css        # Example manual-specific .css file.
 ```
 
 Each section file must include this **YAML front matter** at the top with the relevant metadata:
