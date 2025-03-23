@@ -27,13 +27,14 @@ manuals/Brand/Model/Year/Chassis/Manual-Section.md
 manuals/Subaru/Sambar/2009/GBD-TT2/engine.md
 ```
 
-Each manuals has its own /assets/ folder for manual-specific assets. Generic shared assets can be stored in the root /assets/ folder.
+Each manual has its own /assets/ folder for manual-specific assets. Generic shared assets can be stored in the root /assets/ folder.
 
 **Example:**
 ```
 /assets/                            # Shared asset directory
 │── images/
 │   ├── /brand-logos                # Contains logos for all brands
+│   │   ├── subaru.svg              # Example generic logo for Subaru
 /manuals/                           # Root manual directory
 │── Subaru/                         # Car brand
 │   ├── Sambar/                     # Car model
