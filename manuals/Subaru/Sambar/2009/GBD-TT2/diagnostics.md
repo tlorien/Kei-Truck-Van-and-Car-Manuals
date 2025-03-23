@@ -1308,9 +1308,9 @@ Wiring diagram:
       &nbsp;&nbsp;&nbsp;&nbsp;1. Drive at a constant speed of 55-66km/h.<br>
       &nbsp;&nbsp;&nbsp;&nbsp;2. After 5 minutes have elapsed in the state of Step 1), use the Subaru Select Monitor to read the waveform data while the vehicle is still driving.<br>
       - Normal:<br>
-      <img src="/assets/images/6-1-15.PNG" alt="Normal Waveform"><br>
+      <img src="./assets/images/6-1-15.PNG" alt="Normal Waveform"><br>
       - When abnormal (many inversions)<br>
-      <img src="/assets/images/6-1-16.PNG" alt="Abnormal Waveform"><br>
+      <img src="./assets/images/6-1-16.PNG" alt="Abnormal Waveform"><br>
     </td>
     <td>Is the normal waveform displayed?</td>
     <td>Even if the powertrain warning light comes on, the circuit has returned to normal at this point. Recreate the fault and perform the diagnosis again.<br>
@@ -1323,11 +1323,11 @@ Wiring diagram:
     &nbsp;&nbsp;&nbsp;&nbsp;1. Idle the vehicle.<br>
     &nbsp;&nbsp;&nbsp;&nbsp;2. While in Step 1), use the Subaru Select Monitor to read the waveform data.<br>
     - Normal:<br>
-    <img src="/assets/images/6-1-17.PNG" alt="Normal Waveform"><br>
+    <img src="./assets/images/6-1-17.PNG" alt="Normal Waveform"><br>
     - Abnormality 1 (many inversions)<br>
-    <img src="/assets/images/6-1-18.PNG" alt="Abnormality 1"><br>
+    <img src="./assets/images/6-1-18.PNG" alt="Abnormality 1"><br>
     - Abnormality 2 (noise mixed)<br>
-    <img src="/assets/images/6-1-19.PNG" alt="Abnormality 2"><br></td>
+    <img src="./assets/images/6-1-19.PNG" alt="Abnormality 2"><br></td>
     <td>Is the normal waveform displayed?</td>
     <td>Proceed to Step 4.</td>
     <td>- If the waveform of abnormality 1 is displayed: Go to Step 4.<br>
